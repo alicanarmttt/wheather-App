@@ -1,22 +1,29 @@
 .advice {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 20px;
+}
+.advice h6 {
+  color: white;
+  font-size: larger;
 }
 .card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   background-color: transparent;
   border: none;
+  gap: 10px;
   margin-top: 0;
   border-radius: 7px;
 }
 .card-body {
   width: 250px;
   background-color: rgb(195, 213, 228);
+  border-radius: 7px;
 }
 .card-img-top {
   width: 250px;

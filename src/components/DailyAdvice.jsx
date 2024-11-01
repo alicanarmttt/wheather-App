@@ -15,7 +15,7 @@ function DailyAdvice() {
       return (
         <div className="card" style={{ width: "18rem" }}>
           <img
-            src="/img/tshirt.png"
+            src="/img/tshirt.png.png"
             className="card-img-top"
             alt="Warm weather"
           />
@@ -28,7 +28,7 @@ function DailyAdvice() {
       return (
         <div className="card" style={{ width: "18rem" }}>
           <img
-            src="/img/jacket.png"
+            src="/img/jacket.png.png"
             className="card-img-top"
             alt="Mild weather"
           />
@@ -43,7 +43,7 @@ function DailyAdvice() {
       return (
         <div className="card" style={{ width: "18rem" }}>
           <img
-            src="/img/mont.png"
+            src="/img/mont.png.png"
             className="card-img-top"
             alt="Cold weather"
           />
@@ -59,8 +59,10 @@ function DailyAdvice() {
 
   return (
     <div className="advice">
-      <h6>Daily Advice</h6>
-      {giveAdvice()}
+      <div>
+        <h6>Daily Advice: </h6>
+      </div>
+      <div>{giveAdvice()}</div>
     </div>
   );
 }

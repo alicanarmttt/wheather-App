@@ -10,7 +10,7 @@
   height: 33.3vh;
   min-height: 230px; /* Minimum yüksekliği belirler */
   height: auto; /* İçerik taşarsa yüksekliği otomatik ayarlar */
-  border: 3px solid rgb(70, 156, 231);
+  border: 2px solid rgb(70, 156, 231);
   align-items: center;
   display: flex;
   flex-direction: row;

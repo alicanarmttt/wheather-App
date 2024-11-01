@@ -5,7 +5,7 @@ import "../css/HomePage.css";
 function HomePage() {
   return (
     <div className="HomePage-body">
-      <div className="cerceve">
+      <div className="cerceve" style={{ borderTop: "none" }}>
         <CurrentWheather></CurrentWheather>
       </div>
       <div className="cerceve">
